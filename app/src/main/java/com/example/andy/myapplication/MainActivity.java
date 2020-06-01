@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         arrayList = new ArrayList<SubjectData>();
+        int i;
     }
 
     private void loadProducts() {
